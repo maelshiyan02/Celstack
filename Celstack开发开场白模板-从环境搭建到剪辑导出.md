@@ -18,9 +18,9 @@ Celstack Phase 1：最小可用的追番追踪器。需求：
 2. 本地视频导入（MP4/MKV），用 WebView2 <video> 播放
 3. 进度追踪：记住集数 + 视频时间点 + 下次打开自动恢复
 4. 剧集列表：显示每集状态（未看 / 在看 / 看完）
-5. 主题切换（参考用户上传图的蓝紫渐变风格）
+5. 主题切换（底色沿用图标的蓝紫主色 #5B4BE0）
 
-SQLite Schema 需要：animes 表 + episodes 表 + progress 表（参考 Celstack/PROJECT.md）
+SQLite Schema 需要：animes 表 + episodes 表 + progress 表（参考《Celstack项目开发计划书-追番追踪剪辑与AI增强规划.md》）
 ```
 
 ## 模板 3：时间点标记（核心功能）
